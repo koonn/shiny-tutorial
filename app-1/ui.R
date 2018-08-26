@@ -2,6 +2,7 @@ library(shiny)
 
 # アプリケーションの UI 定義。ヒストグラムを描く
 shinyUI(fluidPage(
+<<<<<<< HEAD
   
   # アプリケーションタイトル
   titlePanel("Hello Shiny!"),
@@ -21,4 +22,12 @@ shinyUI(fluidPage(
       plotOutput("distPlot")
     )
   )
+=======
+ titlePanel("title panel"),
+ 
+ sidebarLayout(
+   sidebarPanel("sidebar panel"),
+   mainPanel("main panel")
+ )
+>>>>>>> origin/master
 ))

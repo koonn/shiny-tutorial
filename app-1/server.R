@@ -3,6 +3,7 @@ library(shiny)
 # サーバロジックの定義。ヒストグラムを描く
 shinyServer(function(input, output) {
   
+<<<<<<< HEAD
   # ヒストグラムを描くための式。
   # この式は renderPlot にラップされている。つまり、
   #
@@ -17,4 +18,6 @@ shinyServer(function(input, output) {
     # 指定された階級数(bin)でヒストグラムを描く
     hist(x, breaks = bins, col = 'skyblue', border = 'white')
   })
+=======
+>>>>>>> origin/master
 })
